@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-image: url(IMAGENS/God\ of\ War_\ The\ Leviathan\ Axe\ [1920x1080].jfif);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 header{
     height: 10vh;
     display: flex;
@@ -149,17 +146,15 @@ li a:hover{
 }
 
 @media(max-width:420px){
-    html{
-        overflow: hidden;
-    }
     body{
-        
-        width: 100% !important;
-        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     footer{
     width: 100%;
-    height: 100%;
+    height: 65vh;
+    overflow: hidden;
     }
     footer ul{
         align-items: start;
@@ -173,5 +168,6 @@ li a:hover{
    }
    .boxUM p{
     width: 300px;
+    overflow: hidden;
    }
 }

@@ -1,54 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-image: url(IMAGENS/God\ of\ War_\ The\ Leviathan\ Axe\ [1920x1080].jfif);
     background-size: cover;
     background-position: center;
 }
-header{
+
+header {
     height: 10vh;
     display: flex;
     justify-content: end;
 }
-.language{
+
+.language {
     margin: 10px;
     align-items: center;
     display: flex;
 }
-.language img{
+
+.language img {
     width: 20px;
     transition: 1s;
 }
-.language img:hover{
+
+.language img:hover {
     transform: rotate(180deg);
 }
-select{
+
+select {
     color: #d0d0d0;
     padding: 10px;
     transition: 0.6s;
     outline: none;
     background: none;
     font-size: 15px;
-   border: transparent;
-   border-radius: 20px;
+    border: transparent;
+    border-radius: 20px;
     appearance: none;
-   -moz-appearance: none;
-   text-indent: 1px;
-   text-overflow: '';
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
 }
-select:hover{
+
+select:hover {
     color: #ffffff;
 }
-option{
+
+option {
     outline: none;
     color: rgb(255, 255, 255);
     font-family: monospace;
     background-color: black;
     padding: 10px;
 }
-.titulo{
+
+.titulo {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -56,30 +65,36 @@ option{
     align-items: center;
     gap: 20px;
 }
-.titulo img{
+
+.titulo img {
     width: 40px;
     height: 40px;
 }
-.titulo h1{
+
+.titulo h1 {
     color: white;
     font-size: 40px;
     font-family: Georgia;
     letter-spacing: 2px;
 }
-.botao{
+
+.botao {
     margin-top: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.botao img{
+
+.botao img {
     width: 30px;
     transition: 0.5s;
 }
-.botao img:hover{
+
+.botao img:hover {
     transform: rotate(30deg)
 }
- .botao a{
+
+.botao a {
     text-decoration: none;
     background-color: #ff0000;
     align-items: center;
@@ -91,16 +106,19 @@ option{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 2px 3px 10px black;
     transition: 0.5s;
- }
- .botao a:hover{
+}
+
+.botao a:hover {
     background-color: #ca0000;
- }
- footer{
+}
+
+footer {
     background-color: #00000086;
     height: 25vh;
-    margin-top: 166px;
- }
- footer ul{
+    margin-top: 20%;
+}
+
+footer ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -110,64 +128,75 @@ option{
     align-items: center;
     margin-left: 10px;
     padding-top: 10px;
- }
-li a{
+}
+
+li a {
     text-decoration: none;
     color: #d2d2d2;
     transition: 0.5s;
 }
-li a:hover{
-  
+
+li a:hover {
+
     color: #ffffff;
 }
-.boxUM h5{
+
+.boxUM h5 {
     color: #9a9a9a;
     padding-left: 10px;
     margin-top: 10px;
 }
-.boxUM p{
+
+.boxUM p {
     margin-top: 5px;
     padding-left: 10px;
     color: #9a9a9a;
     font-size: 13px;
     width: 90%;
 }
-.boxUM{
+
+.boxUM {
     width: 50em;
 }
-.boxUM img{
+
+.boxUM img {
     width: 50px;
     margin-right: 10px;
     transition: 0.5s;
     opacity: 0.5;
 }
-.boxUM img:hover{
-   opacity: 1;
+
+.boxUM img:hover {
+    opacity: 1;
 }
 
-@media(max-width:420px){
-    body{
+@media(max-width:420px) {
+    body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
-    footer{
-    width: 100%;
-    height: 65vh;
-    overflow: hidden;
+
+    footer {
+        width: 100%;
+        height: 65vh;
+        overflow: hidden;
     }
-    footer ul{
+
+    footer ul {
         align-items: start;
         margin-left: 0;
         gap: 10px;
         margin-bottom: 20px;
 
     }
-   ul img{
-    display: none;
-   }
-   .boxUM p{
-    width: 300px;
-    overflow: hidden;
-   }
+
+    ul img {
+        display: none;
+    }
+
+    .boxUM p {
+        width: 300px;
+        overflow: hidden;
+    }
 }
